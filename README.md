@@ -13,4 +13,4 @@ Sahari, M.L., Boukemara, I. *A pseudo-random numbers generator based on a novel 
 *Contenido*  
 * **1.3d-plm**: implementación y pruebas del generador caótico pseudo-aleatorio 3D-PLM.
 * **2.encryption.scheme**: implementación y pruebas del algoritmo de encriptación de imágenes propuesto.
-* **3.imgcrypt**: implentación de un programa aplicando los conceptos estudiados.
+* **3.imgcrypt**: implementación de un programa aplicando los conceptos estudiados.
