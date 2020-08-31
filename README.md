@@ -6,7 +6,8 @@ Trabajo final de la materia 75.26 - Simulación
 
 
 En este trabajo estudiará y analizará el paper:
-Sahari, M.L., Boukemara, I. *A pseudo-random numbers generator based on a novel 3D chaotic map with an application to color image encryption*. Nonlinear Dyn 94, 723–744 (2018). https://doi.org/10.1007/s11071-018-4390-z  
+
+Sahari, M.L., Boukemara, I. *A pseudo-random numbers generator based on a novel 3D chaotic map with an application to color image encryption*. Nonlinear Dyn 94, 723–744 (2018). (https://doi.org/10.1007/s11071-018-4390-z) 
 
 
 *Contenido*  
