@@ -1,0 +1,64 @@
+16x16
+*** WARNING : deprecated key derivation used.
+Using -iter or -pbkdf2 would be better.
+
+real	0m0.011s
+user	0m0.003s
+sys	0m0.002s
+32x32
+*** WARNING : deprecated key derivation used.
+Using -iter or -pbkdf2 would be better.
+
+real	0m0.007s
+user	0m0.003s
+sys	0m0.002s
+64x64
+*** WARNING : deprecated key derivation used.
+Using -iter or -pbkdf2 would be better.
+
+real	0m0.007s
+user	0m0.003s
+sys	0m0.002s
+128x128
+*** WARNING : deprecated key derivation used.
+Using -iter or -pbkdf2 would be better.
+
+real	0m0.006s
+user	0m0.003s
+sys	0m0.002s
+256x256
+*** WARNING : deprecated key derivation used.
+Using -iter or -pbkdf2 would be better.
+
+real	0m0.007s
+user	0m0.003s
+sys	0m0.002s
+512x512
+*** WARNING : deprecated key derivation used.
+Using -iter or -pbkdf2 would be better.
+
+real	0m0.010s
+user	0m0.004s
+sys	0m0.003s
+1024x1024
+*** WARNING : deprecated key derivation used.
+Using -iter or -pbkdf2 would be better.
+
+real	0m0.017s
+user	0m0.009s
+sys	0m0.006s
+2048x2048
+*** WARNING : deprecated key derivation used.
+Using -iter or -pbkdf2 would be better.
+
+real	0m0.051s
+user	0m0.027s
+sys	0m0.018s
+4096x4096
+*** WARNING : deprecated key derivation used.
+Using -iter or -pbkdf2 would be better.
+
+real	0m0.168s
+user	0m0.098s
+sys	0m0.061s
+Done!

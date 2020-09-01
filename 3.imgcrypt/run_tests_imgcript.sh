@@ -1,0 +1,11 @@
+#/bin/sh
+python -m cProfile -s time ./imgcrypt.py -s -e -k "0.411;0.321;0.631" "images/lena_std_16_16.tif"
+python -m cProfile -s time ./imgcrypt.py -s -e -k "0.411;0.321;0.631" "images/lena_std_32_32.tif"
+python -m cProfile -s time ./imgcrypt.py -s -e -k "0.411;0.321;0.631" "images/lena_std_64_64.tif"
+python -m cProfile -s time ./imgcrypt.py -s -e -k "0.411;0.321;0.631" "images/lena_std_128_128.tif"
+python -m cProfile -s time ./imgcrypt.py -s -e -k "0.411;0.321;0.631" "images/lena_std_256_256.tif"
+python -m cProfile -s time ./imgcrypt.py -s -e -k "0.411;0.321;0.631" "images/lena_std_512_512.tif"
+python -m cProfile -s time ./imgcrypt.py -s -e -k "0.411;0.321;0.631" "images/lena_std_1024_1024.tif"
+python -m cProfile -s time ./imgcrypt.py -s -e -k "0.411;0.321;0.631" "images/lena_std_2048_2048.tif"
+python -m cProfile -s time ./imgcrypt.py -s -e -k "0.411;0.321;0.631" "images/lena_std_4096_4096.tif"
+echo "Done!"
