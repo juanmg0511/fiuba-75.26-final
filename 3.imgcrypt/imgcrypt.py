@@ -554,7 +554,10 @@ def main():
         #TODO: save and encrypt color profile - im_original.info.get("icc_profile")
         if ((lossless==False) or (mode=="d")):
             #Non-lossless mode, use Pillow
-            im_final.save(path_final, format=im_original.format, quality="keep", subsampling="keep")
+            if (str(im_original.format).lower() in lossy_formats):
+                im_final.save(path_final, format=im_original.format)
+            else:        
+                im_final.save(path_final, format=im_original.format, subsampling="keep", quality="keep")
         else:
             #Lossless mode, generate a custom dictionary with the image data to be saved
             #TODO: compress dictionary to reduce size of dump
